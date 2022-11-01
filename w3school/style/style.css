@@ -1,0 +1,51 @@
+:root{
+    --text-color:#ffff;
+    --button-color:#04AA6D;
+}
+/*navbar*/
+.navbar .container-fluid{
+    background-color: #282A35;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+/*body*/
+.card-body {
+    background-color: #D9EEE1;
+}
+/*buttons*/
+.card .card-header form button{
+    width: 130px;
+    background-color: var(--button-color);
+    border-radius: 25px;
+    color:var(--text-color);
+    font-size: 18px;
+}
+.container-fluid form button{
+    width: 130px;
+    background-color: var(--button-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 18px;
+}
+.card-body button{
+    background-color: var(--button-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 18px;
+}
+.card-body #black{
+    background-color: #000;
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 18px;
+}
+/*icons*/
+.container-fluid #left::before{
+    content: url('../img/left-arrow.png');
+    padding-right: 10px;
+}
+.container-fluid #right::after{
+    content: url('../img/right-arrow.png');
+    padding-left: 10px;
+}
